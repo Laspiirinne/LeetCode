@@ -1,3 +1,4 @@
+// DFS
 class Solution {
         boolean[] vis;
         List<Integer>[] edge;
@@ -31,3 +32,6 @@ class Solution {
             }
         }
     }
+
+
+// 并查集
