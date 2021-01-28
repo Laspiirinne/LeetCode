@@ -19,6 +19,7 @@ class Solution {
                 temp = nums[odd];
                 nums[odd] = nums[even];
                 nums[even] = temp;
+                // 交换后，even指针始终指向偶数
                 ++even;
             }
             ++odd;
